@@ -17,13 +17,15 @@
 
         android:strokeColor="#D7471C" />
 
-    <path
-        android:fillColor="#E5E5E5"
-        android:pathData="M80,75 C80,70 100,60 100,75 z" />
+    <group android:name="translateCloud">
+        <path
+            android:fillColor="#E5E5E5"
+            android:pathData="M80,75 C80,70 100,60 100,75 z" />
 
-    <path
-        android:fillColor="#E5E5E5"
-        android:pathData="M100,75 C91,50 130,50 130,75 " />
+        <path
+            android:fillColor="#E5E5E5"
+            android:pathData="M100,75 C91,50 130,50 130,75 " />
+    </group>
 
     <path
         android:fillColor="#4646BA"
